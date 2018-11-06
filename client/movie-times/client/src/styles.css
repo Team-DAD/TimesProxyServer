@@ -1,0 +1,144 @@
+.weekdates {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-box {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 198px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.week-day {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: darkgrey;
+}
+
+.month-highlight {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+}
+
+.day-highlight {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+}
+
+.arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.selected {
+  background-color: aliceblue;
+}
+
+.theatre-times {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.theatre-field {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.theatre-header {
+  background-color: #9cbbed;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.theatre-header-field:first-child {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.theatre-spot {
+  display: flex;
+  width: 20%;
+  justify-content: flex-end;
+}
+
+.theatre-header-field {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+.theatre-time-head {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.theatre-showtimes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.theatre-icon-end {
+  margin-left: auto;
+}
+
+.time-button {
+  padding: 20px;
+  background-color: #00b386;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.page-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #e1e5ed;
+  margin-right: 20px;
+}
+
+.icon-padding {
+  margin-right: 10px;
+}
+
+/* .modal-hover {
+  display: none;
+  background-color: orange;
+  color: white;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+} */
+
+.modal-hover {
+  display: none;
+}
+
+/* .modal-hover:hover {
+  display: block;
+} */
+
+.time-button:hover {
+  border: 2px solid black;
+}

@@ -1,0 +1,64 @@
+.title-bar {
+  font-size: 26px;
+  display: inline-block;
+  padding: 10px;
+}
+
+#overall-rating {
+  position: relative;
+  left: 20px;
+  display: inline-block;
+}
+
+.empty-star {
+  display: inline-block;
+  position: relative;
+}
+
+.fill-star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.checked {
+	color: yellow;
+}
+
+.review {
+  max-width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.review-title {
+  padding-top: 5px;
+  font-size: 26px;
+}
+
+.review-username {
+  padding-top: 4px;
+  font-size: 18px;
+}
+
+.review-text {
+  padding-top: 7px;
+  font-size: 16px;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.link-button:hover,
+.link-button:focus {
+text-decoration: none;
+}
