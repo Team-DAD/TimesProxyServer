@@ -1,4 +1,14 @@
-#summary {
+/* #summary {
   position: absolute;
   top: 200px;
+}
+
+.positioning {
+  position: absolute;
+  top: 200px;
+} */
+
+div#summary {
+    position: absolute;
+    top: 200px;
 }

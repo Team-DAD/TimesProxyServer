@@ -61,3 +61,8 @@
 .link-button:focus {
 text-decoration: none;
 }
+
+#summary {
+  position: absolute;
+  top: 200px;
+}

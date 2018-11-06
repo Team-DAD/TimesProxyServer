@@ -28,7 +28,7 @@ class Calendar extends React.Component {
   }
 
   getData(day) {
-    fetch(`http://localhost:3002/api/moviesbyid/1/${day}/45.621,65.4567`)
+    fetch(`/api/moviesbyid/1/${day}/45.621,65.4567`)
       .then(res => res.json())
       .then((data) => {
         for (let i = 0; i < data.length; i += 1) {

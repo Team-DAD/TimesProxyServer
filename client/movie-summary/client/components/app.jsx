@@ -29,7 +29,7 @@ class App extends React.Component {
 
   componentDidMount() {
     const id = Math.floor(Math.random() * 100);
-    fetch(`http://localhost:3007/api/movies/${id}/summary`)
+    fetch(`/api/movies/${id}/summary`)
       .then((response) => {
         response.json().then((data) => {
           this.setState({
@@ -81,7 +81,7 @@ class App extends React.Component {
     const { mainPhotoClass } = this.state;
 
     return (
-      <div>
+      <div className="positioning">
         <div className="title-box">
           <h2 className="title">{titleAndYear}</h2>
         </div>

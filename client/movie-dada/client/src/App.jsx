@@ -26,7 +26,7 @@ class App extends React.Component {
 
   getMovies() {
     const genre = genres[randNum(genres.length)];
-    axios.get(`http://localhost:3003/api/movies/:${genre}/relatedmovies`)
+    axios.get(`/api/movies/:${genre}/relatedmovies`)
       .then((response) => {
         this.setState({ movieList: response.data });
       })

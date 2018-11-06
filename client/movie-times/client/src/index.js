@@ -1,3 +1,4 @@
 import App from './App.jsx';
+import ReactDOM from 'react-dom';
 
-window.Time = App;
+ReactDOM.render(<App />, document.getElementById('movie-times'))
